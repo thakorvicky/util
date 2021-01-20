@@ -9,13 +9,11 @@ import org.junit.jupiter.api.Test;
  */
 public class TestObjects {
 
-	@Test
-	public void test_isNull(){
+	@Test public void test_isNull() {
 		Assertions.assertTrue(Objects.isNull(null));
 	}
 
-	@Test
-	public void test_NonNull(){
+	@Test public void test_NonNull() {
 		Assertions.assertTrue(Objects.nonNull(new Object()));
 	}
 }
