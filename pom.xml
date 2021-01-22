@@ -142,7 +142,7 @@
                <localCheckout>true</localCheckout>
                <pushChanges>false</pushChanges>
                <mavenExecutorId>forked-path</mavenExecutorId>
-               <arguments>-Dgpg.passphrase=h5#2jaguar</arguments>
+               <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
             </configuration>
             <dependencies>
                <dependency>
