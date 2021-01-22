@@ -19,10 +19,8 @@ jobs:
     - name: Setup Git username
       run: |
         #
-          git config --global user.email "${GH_USERNAME}@users.noreply.github.com"
-          git config --global user.name "${GH_USERNAME}"
-      env:
-        GH_USERNAME: ${{ github.event.schedule.user.login }}
+        git config --global user.email "vicky.thakor@javaquery.com"
+        git config --global user.name "Vicky Thakor"
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1.4.3
       with:
