@@ -43,7 +43,7 @@ jobs:
         #
         git config --global user.email "vicky.thakor@javaquery.com"
         git config --global user.name "Vicky Thakor"
-        mvn -X -e --batch-mode clean release:prepare release:perform
+        mvn -X -e --batch-mode deploy
       env:
         MAVEN_USERNAME: javaquery
         MAVEN_CENTRAL_TOKEN: ${{ secrets.OSSRH_TOKEN }}
