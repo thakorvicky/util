@@ -4,7 +4,7 @@
    <groupId>com.javaquery</groupId>
    <artifactId>util</artifactId>
    <packaging>pom</packaging>
-   <version>1.0-SNAPSHOT</version>
+   <version>1.0</version>
    <name>Java Util Library</name>
    <description>Java util class to reduce boilerplate codes</description>
    <url>https://github.com/javaquery/util</url>
